@@ -1,6 +1,10 @@
-# vue-crud
+# Recepie Web App
 
-> A Vue.js project
+> A Vue.js project in which we can create, update, delete and view recepies and respective ingredients.
+
+> Used ```Vue.js``` as frontend and ```Firestore``` as backend.
+
+> Live Url: ```https://sudip-vue-crud.firebaseapp.com/```
 
 ## Build Setup
 
