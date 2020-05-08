@@ -1,6 +1,6 @@
-# Recepie Web App
+# Recipe Web App
 
-> A Vue.js project in which we can create, update, delete and view recepies and respective ingredients.
+> A Vue.js project in which we can create, update, delete and view recipes and respective ingredients.
 
 > Used ```Vue.js``` as frontend and ```Firestore``` as backend.
 
