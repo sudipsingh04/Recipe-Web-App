@@ -14,6 +14,7 @@
       <div class="field add-ingredient">
         <label for="add-ingredient">Add an ingredient:</label>
         <input type="text" name="add-ingredient" @keydown.tab.prevent="addIng" v-model="another">
+        <p class="blue-text">Press tab to add more ingredient...</p>
       </div>
       <div class="field center-align">
         <p v-if="feedback" class="red-text">{{ feedback }}</p>
@@ -58,7 +59,7 @@ export default {
           console.log(err);
         })
       }else{
-        this.feedback = 'You must enter title'
+        this.feedback = 'You must enter the title'
       }
     },
     addIng(){
